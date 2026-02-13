@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(66, 29, 116, 0.774);
+}
+.page{
+    max-width: 1200px;
+    min-height: 100vh;
+    background-color: rgb(101, 62, 133);
+    margin: 0 auto;
+    padding: 20px;
+}
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.timer_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.timer_box p:first-child{
+    font-size: 64px;
+}
+.text{
+    font-size: 42px;
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(67, 24, 134, 0.774);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.txt{
+    background-color: gainsboro;
+    padding: 15px;
+    font-size: 22px;
+}
