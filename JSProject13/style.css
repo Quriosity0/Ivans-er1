@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(116, 139, 134);
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 50px 150px;
+}
+form{
+    width: 500px;
+    padding: 15px;
+    border: 2px solid rgb(132, 189, 165);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 22px 0px;
+}
+input,label,button{
+    font-size: 22px;
+    padding: 10px;
+}
